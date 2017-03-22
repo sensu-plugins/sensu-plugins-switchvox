@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
-# Switchvox PBX SNMP Load Check
-# ===
+# Switchvox PBX SNMP Disk Check
 #
 # Checks the reported SNMP disk usage percentage for Switchvox PBX
 #
@@ -34,14 +33,14 @@ class CheckSwitchvoxDisk < Sensu::Plugin::Check::CLI
          default: 'SNMPv2c'
 
   option :warn,
-         description: 'Warning load average threshold',
+         description: 'Warning disk usage percentage threshold',
          short: '-w VALUE',
          long: '--warning VALUE',
          default: '70',
          required: true
 
   option :crit,
-         description: 'Critical load average threshold',
+         description: 'Critical disk usage percentage threshold',
          short: '-c VALUE',
          long: '--critical VALUE',
          default: '80',

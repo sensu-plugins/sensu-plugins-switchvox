@@ -34,28 +34,28 @@ class CheckSwitchvoxMemory < Sensu::Plugin::Check::CLI
          default: 'SNMPv2c'
 
   option :mem_warn,
-         description: 'Warning load average threshold',
+         description: 'Warning memory usage percentage threshold',
          short: '-w VALUE',
          long: '--mem_warning VALUE',
          default: '85',
          required: true
 
   option :mem_crit,
-         description: 'Critical load average threshold',
+         description: 'Critical memory usage percentage threshold',
          short: '-c VALUE',
          long: '--mem_critical VALUE',
          default: '90',
          required: true
 
   option :swap_warn,
-         description: 'Warning load average threshold',
+         description: 'Warning swap usage percentage threshold',
          short: '-x VALUE',
          long: '--swap_warning VALUE',
          default: '20',
          required: true
 
   option :swap_crit,
-         description: 'Critical load average threshold',
+         description: 'Critical swap usage percentage threshold',
          short: '-y VALUE',
          long: '--swap_critical VALUE',
          default: '30',

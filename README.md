@@ -8,11 +8,19 @@
 
 ## Functionality
 
+**check-switchvox-disk-pcnt.rb**
+Checks the reported SNMP disk usage percentage for Switchvox PBX
+
+**check-switchvox-load.rb**
+Checks the reported SNMP system load for Switchvox PBX
+
+**check-switchvox-mem-pcnt.rb**
+Checks the reported SNMP memory usage percentage for Switchvox PBX
 
 **metrics-switchvox-pbx**
 
 Collects Metrics via SNMP for a Switchvox PBX
-  
+
   - Disk
     - Used
     - Total
@@ -40,6 +48,9 @@ Collects Metrics via SNMP for a Switchvox PBX
 
 
 ## Files
+ * check-switchvox-disk-pcnt.rb
+ * check-switchvox-load.rb
+ * check-switchvox-mem-pcnt.rb
  * metrics-switchvox-pbx
 
 ## Usage
