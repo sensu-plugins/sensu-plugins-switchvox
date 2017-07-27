@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.org/smbambling/sensu-plugins-switchvox.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-switchvox)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-switchvox.svg)](http://badge.fury.io/rb/sensu-plugins-switchvox)
-[![Code Climate](https://codeclimate.com/github/smbambling/sensu-plugins-switchvox/badges/gpa.svg)](https://codeclimate.com/github/smbambling/sensu-plugins-switchvox)
-[![Test Coverage](https://codeclimate.com/github/smbambling/sensu-plugins-switchvox/badges/coverage.svg)](https://codeclimate.com/github/smbambling/sensu-plugins-switchvox)
-[![Dependency Status](https://gemnasium.com/smbambling/sensu-plugins-switchvox.svg)](https://gemnasium.com/smbambling/sensu-plugins-switchvox)
+[![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-switchvox.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-switchvox)
 
 ## Functionality
 

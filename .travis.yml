@@ -1,6 +1,8 @@
 language: ruby
 cache:
 - bundler
+before_install:
+  gem install bundler -v 1.15
 install:
 - bundle install
 rvm:
@@ -8,10 +10,12 @@ rvm:
 - 2.1
 - 2.2
 - 2.3.0
+- 2.4.1
 notifications:
   email:
     recipients:
     - smbambling@gmail.com
+    - sensu-plugin@sensu-plugins.io
     on_success: change
     on_failure: always
 script:
@@ -28,7 +32,5 @@ deploy:
     rvm: 2.1
     rvm: 2.2
     rvm: 2.3.0
-    repo: smbambling/sensu-plugins-switchvox
-addons:
-    code_climate:
-          repo_token:
+    rvm: 2.4.1
+    repo: sensu-plugins/sensu-plugins-switchvox
