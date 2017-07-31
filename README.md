@@ -1,6 +1,6 @@
 ## sensu-plugins-switchvox
 
-[![Build Status](https://travis-ci.org/smbambling/sensu-plugins-switchvox.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-switchvox)
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-switchvox.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-switchvox)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-switchvox.svg)](http://badge.fury.io/rb/sensu-plugins-switchvox)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-switchvox.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-switchvox)
 
