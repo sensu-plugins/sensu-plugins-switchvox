@@ -28,7 +28,7 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
   s.version                = SensuPluginsSwitchvox::Version::VER_STRING
 
   s.add_runtime_dependency 'sensu-plugin', '>= 1.2', '< 5.0'
-  s.add_runtime_dependency 'snmp',         '1.2.0'
+  s.add_runtime_dependency 'snmp',         '1.3.2'
 
   s.add_development_dependency 'bundler',                   '~> 1.15'
   s.add_development_dependency 'github-markup',             '~> 3.0'
